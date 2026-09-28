@@ -1,0 +1,32 @@
+괄호 표기법으로 이진트리를 입력하세요.
+예: A(B(D,E),C(,F))
+> A(B(D(H,I),E(J,K)),C(F,L(G,M)))
+
+입력한 트리 : A(B(D(H,I),E(J,K)),C(F,L(G,M)))
+
+[이진트리 구조] (왼쪽으로 90도 회전: 위쪽 = 오른쪽 자식, 아래쪽 = 왼쪽 자식)
+                  M
+            L
+                  G
+      C
+            F
+A
+                  K
+            E
+                  J
+      B
+                  I
+            D
+                  H
+
+[순회 결과]
+Preorder  : A B D H I E J K C F L G M 
+Inorder   : H D I B J E K A F C G L M 
+Postorder : H I D J K E B F G M L C A 
+
+
+괄호 표기법으로 이진트리를 입력하세요.
+예: A(B(D,E),C(,F))
+> A(C(V)
+오류: 괄호가 올바르게 닫히지 않았습니다.
+잘못된 이진트리입니다.
